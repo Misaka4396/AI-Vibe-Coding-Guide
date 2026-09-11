@@ -73,11 +73,16 @@ python tools/build_guide.py docs/AI-Vibe-Coding-Guide.docx
 
 ## Preview
 
-![Cover](assets/preview-1-cover.png)
+<!-- Images are referenced through an absolute CDN URL on purpose: repo-relative image
+     paths are served from raw.githubusercontent.com, which is DNS-blocked in mainland
+     China. An absolute URL makes GitHub proxy the image through camo.githubusercontent.com,
+     which stays reachable. -->
 
-![Table of contents](assets/preview-2-toc.png)
+![Cover](https://cdn.jsdelivr.net/gh/Misaka4396/AI-Vibe-Coding-Guide@main/assets/preview-1-cover.png)
 
-![P1/P2 specification pages](assets/preview-3-specs.png)
+![Table of contents](https://cdn.jsdelivr.net/gh/Misaka4396/AI-Vibe-Coding-Guide@main/assets/preview-2-toc.png)
+
+![P1/P2 specification pages](https://cdn.jsdelivr.net/gh/Misaka4396/AI-Vibe-Coding-Guide@main/assets/preview-3-specs.png)
 
 ## Repository layout
 

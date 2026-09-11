@@ -140,11 +140,14 @@ python tools/build_guide.py docs\AI-Vibe-Coding-Guide.docx
 
 ## 七、文档预览
 
-![封面](assets/preview-1-cover.png)
+<!-- 图片特意使用绝对 CDN 地址：仓库相对路径的图片由 raw.githubusercontent.com 提供，
+     该域名在大陆被 DNS 污染；绝对地址会让 GitHub 通过可达的 camo.githubusercontent.com 代理抓取。 -->
 
-![目录](assets/preview-2-toc.png)
+![封面](https://cdn.jsdelivr.net/gh/Misaka4396/AI-Vibe-Coding-Guide@main/assets/preview-1-cover.png)
 
-![P1/P2 规范章节](assets/preview-3-specs.png)
+![目录](https://cdn.jsdelivr.net/gh/Misaka4396/AI-Vibe-Coding-Guide@main/assets/preview-2-toc.png)
+
+![P1/P2 规范章节](https://cdn.jsdelivr.net/gh/Misaka4396/AI-Vibe-Coding-Guide@main/assets/preview-3-specs.png)
 
 ## 八、项目结构
 
