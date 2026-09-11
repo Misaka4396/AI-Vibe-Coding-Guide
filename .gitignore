@@ -1,0 +1,21 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- Office / Word lock & temp files ----
+~$*.docx
+~$*.doc
+~$*.xlsx
+~$*.pptx
+*.tmp
+
+# ---- Editors / OS ----
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+*.swp
+.DS_Store
