@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.1] - 2026-09-11
+
+### Fixed
+
+- README 预览图改用 jsDelivr 绝对地址（`https://cdn.jsdelivr.net/gh/...`）。
+  原因：仓库相对路径的图片由 `raw.githubusercontent.com` 提供，该域名在大陆网络下被 DNS 污染
+  （解析为 0.0.0.0），导致图片在仓库主页不显示；改用绝对地址后 GitHub 会经
+  `camo.githubusercontent.com` 代理抓取，该域名在大陆可达。
+  已实测：三张预览图均以 869×1228 原始尺寸正常加载。
+
 ## [v1.0.0] - 2026-09-11
 
 ### Added
